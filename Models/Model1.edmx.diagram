@@ -4,12 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="cc58af5179bb49e2b77603b50900f49e" Name="Diagram1">
-        <EntityTypeShape EntityType="Models.OrderDetail" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.Product" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Models.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="Models.FK_OrderDetail_user" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="Models.Admin" Width="1.5" PointX="3.375" PointY="4.75" />
+      <Diagram DiagramId="0a9c6dbf6d8b483db9cfef45bc3f834d" Name="Diagram1">
+        <EntityTypeShape EntityType="MobileStoreModel.Admin" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MobileStoreModel.OrderDetail" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MobileStoreModel.Product" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MobileStoreModel.User" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="MobileStoreModel.FK_OrderDetail_user" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
